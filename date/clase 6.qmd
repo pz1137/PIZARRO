@@ -50,3 +50,27 @@ Esta es una formula cualquiera $$\frac{\left(2x-1\right)^2-1}{4}=k$$
 1. conectar mi poryecto a github
 1. Tener un archivo en formato html llamado index.hetml
 1. Activar Gi thub pages
+
+# modelos lineales mixtos
+## importar datos
+
+```{r}
+library("readxl")
+Fb<- read_excel("Base de datos/Date/LA MOLINA 2014 POTATO WUE (FB).xlsx", 
+                                            sheet = "fb")
+View(Fb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
